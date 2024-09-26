@@ -61,6 +61,12 @@ int main() {
   int result[3][2] = {0};
   
   // your code starts here
+  for (int x = 0;x < 3;x++){
+    for (int y = 0;y < 2;y++){
+        result[x][y] = matrix_A[x][y] + matrix_B[x][y];
+    }
+  }
+  
   
   // your code ends here
   
